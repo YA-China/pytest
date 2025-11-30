@@ -6,5 +6,5 @@ def yell(*args):
     # print(*uppercased)
     return " ".join(uppercased)
 
-
+print(yell("hello"))
 print(yell("hello", "world", "python"))
